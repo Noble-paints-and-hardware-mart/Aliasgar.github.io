@@ -1,28 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Noble Paints & Hardware Mart</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Noble Paints & Hardware Mart Rajkot</title>
+
+<meta name="description" content="Noble Paints & Hardware Mart in Rajkot offers paints, hardware, tools, plumbing, and building materials. Authorized dealer of Asian Paints. Located near Omnagar and Mavdi Chokdi.">
+
+<style>
+:root{
+  --bg:#f5f0e6;          /* creamy off-white */
+  --navy:#1f2a44;        /* navy blue */
+  --green:#25d366;       /* WhatsApp */
+  --blue:#1e88e5;        /* Call */
+  --text:#1f2a44;
+}
+
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* Header */
+header{
+  text-align:center;
+  padding:40px 20px;
+}
+
+h1{
+  margin:0;
+  font-size:26px;
+  color:var(--navy);
+}
+
+.tagline{
+  margin-top:10px;
+  font-size:16px;
+}
+
+/* Sections */
+section{
+  padding:20px;
+  max-width:900px;
+  margin:auto;
+}
+
+h2{
+  color:var(--navy);
+  margin-top:30px;
+}
+
+/* Cards */
+.card{
+  background:white;
+  padding:15px;
+  margin:10px 0;
+  border-radius:10px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Buttons */
+.buttons{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:15px;
+}
+
+.btn{
+  padding:12px 16px;
+  border:none;
+  border-radius:8px;
+  color:white;
+  font-size:14px;
+  cursor:pointer;
+  text-decoration:none;
+  display:inline-block;
+}
+
+.whatsapp{ background:var(--green); }
+.call{ background:var(--blue); }
+.map{ background:var(--navy); }
+
+/* Sticky buttons */
+.sticky{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  padding:10px;
+  background:rgba(245,240,230,0.95);
+  border-top:1px solid #ddd;
+}
+
+.sticky a{
+  flex:1;
+  text-align:center;
+  margin:0 5px;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:20px;
+  font-size:13px;
+}
+</style>
 </head>
-<body style="font-family: Arial; text-align:center;">
 
-<h1>Noble Paints & Hardware Mart</h1>
-<p>Your trusted shop in Rajkot</p>
+<body>
 
-<img src="https://via.placeholder.com/300" alt="Shop Image">
+<header>
+  <h1>Noble Paints & Hardware Mart, Rajkot</h1>
+  <div class="tagline">
+    Everything you need in Paints, Hardware & Tools
+  </div>
+</header>
 
-<h2>Our Products</h2>
-<p>Paints | Brushes | Tools | Hardware Items</p>
+<section>
 
-<h2>Contact Us</h2>
-<p>Call: 9876543210</p>
+  <div class="card">
+    <strong>About Us</strong><br><br>
+    Authorized Dealer of Asian Paints. Retail shop for paints, hardware, tools, plumbing and building materials.<br><br>
+    All categories available at one shop with reasonable prices and trusted service.
+  </div>
 
-<a href="https://wa.me/919876543210">
-<button>Chat on WhatsApp</button>
-</a>
+  <h2>Products</h2>
 
-<h2>Location</h2>
-<iframe src="https://maps.google.com/maps?q=rajkot&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="300" height="200"></iframe>
+  <div class="card">Paints (Asian Paints, Rajdeep Paints)</div>
+  <div class="card">Furniture Hardware</div>
+  <div class="card">General Hardware</div>
+  <div class="card">Hand Tools</div>
+  <div class="card">Power Tools</div>
+  <div class="card">Plumbing Items</div>
+  <div class="card">Building Materials</div>
+
+  <h2>Why Choose Us</h2>
+
+  <div class="card">
+    ✔ Wide range of products in one place<br>
+    ✔ Reasonable pricing<br>
+    ✔ Trusted local shop with family-like customer relations<br>
+    ✔ Easy availability of essential materials
+  </div>
+
+  <h2>Shop Info</h2>
+
+  <div class="card">
+    📍 Location:<br>
+    Middle of Omnagar and Mavdi Chokdi, near Eco Ply, Rajkot<br><br>
+
+    🕒 Hours:<br>
+    Mon–Sat: 8:00 AM – 9:30 PM<br>
+    Sunday: 8:00 AM – 5:00 PM<br><br>
+
+    ❌ No delivery service
+  </div>
+
+  <h2>Contact</h2>
+
+  <div class="buttons">
+    <a class="btn whatsapp" href="https://wa.me/917878541852">WhatsApp</a>
+    <a class="btn call" href="tel:7878541852">Call Now</a>
+    <a class="btn map" href= "Https://maps.app.goo.gl/SnRWX8sPPwpdqLqn8" target="_blank">Get Directions</a>
+  </div>
+
+</section>
+
+<!-- Sticky CTA -->
+<div class="sticky">
+  <a class="btn whatsapp" href="https://wa.me/917878541852">WhatsApp</a>
+  <a class="btn call" href="tel:7878541852">Call</a>
+</div>
+
+<footer>
+  © Noble Paints & Hardware Mart, Rajkot
+</footer>
 
 </body>
-</html>
+</html> 
