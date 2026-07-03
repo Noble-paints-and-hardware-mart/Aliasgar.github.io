@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Paints | Noble Paints & Hardware Mart</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f5f0e6;margin:0;color:#1f2a44}
+header{background:#1f2a44;color:#fff;padding:20px;text-align:center}
+.container{max-width:900px;margin:auto;padding:20px}
+.card{background:#fff;border-radius:10px;padding:16px;margin:20px 0;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+.card img{max-width:220px;display:block;margin:auto}
+.btn{display:inline-block;margin:8px 5px;padding:10px 16px;text-decoration:none;border-radius:6px;color:#fff}
+.whatsapp{background:#25d366}.call{background:#1e88e5}.back{background:#1f2a44}
+ul{padding-left:20px}
+</style>
+</head>
+<body>
+<header>
+<h1>Paints</h1>
+<p>Noble Paints & Hardware Mart, Rajkot</p>
+</header>
+<div class="container">
+<a class="btn back" href="index.html">⬅ Back to Home</a>
+
+<div class="card">
+<h2>🎨 Tractor Emulsion</h2>
+<img src="interior-walls-tractor-emulsion-asian-paints.png" alt="Tractor Emulsion">
+<ul>
+<li>Smooth matte finish</li>
+<li>Good coverage</li>
+<li>Available: 1L, 4L, 10L, 20L</li>
+</ul>
+<a class="btn whatsapp" href="https://wa.me/917878541852?text=I%20want%20Tractor%20Emulsion">WhatsApp</a>
+<a class="btn call" href="tel:7878541852">Call</a>
+</div>
+
+<div class="card">
+<h2>🏠 Ace Exterior Emulsion</h2>
+<img src="ace-exterior-emulsion-packshot-new.png" alt="Ace Exterior">
+<ul>
+<li>Weather resistant</li>
+<li>Exterior protection</li>
+<li>Available: 1L, 4L, 10L, 20L</li>
+</ul>
+<a class="btn whatsapp" href="https://wa.me/917878541852?text=I%20want%20Ace%20Exterior%20Emulsion">WhatsApp</a>
+</div>
+
+<div class="card">
+<h2>💧 SmartCare Damp Proof</h2>
+<img src="SC-dampproof (1).png" alt="Damp Proof">
+<ul>
+<li>Waterproof coating</li>
+<li>Helps prevent dampness</li>
+<li>Available: 1L, 4L, 10L, 20L</li>
+</ul>
+<a class="btn whatsapp" href="https://wa.me/917878541852?text=I%20want%20SmartCare%20Damp%20Proof">WhatsApp</a>
+</div>
+
+<div class="card">
+<h2>🪵 WoodTech Touchwood</h2>
+<img src="woodtech-touchwood-packshot-asian-paints.png" alt="Touchwood">
+<ul>
+<li>Enhances wood finish</li>
+<li>Durable protection</li>
+<li>Available: 1L, 4L, 10L, 20L</li>
+</ul>
+<a class="btn whatsapp" href="https://wa.me/917878541852?text=I%20want%20WoodTech%20Touchwood">WhatsApp</a>
+</div>
+
+</div>
+</body>
+</html>
